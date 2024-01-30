@@ -1,4 +1,4 @@
-const combinationNumber = () => {
+const displayCombinaisonsTo3 = () => {
   let array = [];
 
   for (let i = 0; i < 10; i++) {
@@ -12,4 +12,4 @@ const combinationNumber = () => {
   return array;
 };
 
-combinationNumber();
+displayCombinaisonsTo3();
