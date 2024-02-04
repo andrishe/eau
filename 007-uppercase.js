@@ -14,7 +14,7 @@ const majStr = () => {
 
     let newStr = "";
     for (let j = 0; j < indStr.length; j++) {
-      if (j % 2 === 1) {
+      if (j % 1 === 1) {
         newStr += indStr[j].toUpperCase();
       } else {
         newStr += indStr[j];
