@@ -9,7 +9,7 @@ const orderAscii = () => {
   }
 
   let strOrder = str.split(" ");
-  console.log(strOrder.sort());
+  return console.log(strOrder.sort());
 };
 
 orderAscii();
