@@ -1,3 +1,6 @@
+const arg = process.argv[2];
+const str = process.argv[3];
+
 const errorHandling = (arg) => {
   if (typeof arg !== "string" || arg.trim() === "") {
     console.log("Erreur : Veuillez entrer une chaîne de caractères valide!");
@@ -22,6 +25,4 @@ const includeStr = (arg, str) => {
   return false;
 };
 
-const arg = process.argv[2];
-const str = process.argv[3];
 console.log(includeStr(arg, str));
