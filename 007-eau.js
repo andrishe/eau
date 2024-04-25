@@ -11,9 +11,8 @@ const strUpperCase = (arg) => {
   errorHandling(arg);
 
   let newStr = "";
-  let capitalizeArg = true; // Commencez par capitaliser la première lettre de la première chaîne
+  let capitalizeArg = true;
 
-  // Capitaliser la première chaîne
   for (let i = 0; i < arg.length; i++) {
     if (
       (arg[i].charCodeAt(0) >= 65 && arg[i].charCodeAt(0) <= 90) ||
@@ -34,7 +33,6 @@ const strUpperCase = (arg) => {
     }
   }
 
-  // Ajouter un espace entre les deux chaînes
   newStr += " ";
 
   return newStr;
