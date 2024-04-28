@@ -13,7 +13,7 @@ const foundIndex = (strIndex, searchStr) => {
       return i;
     }
   }
-  console.log(" -1 L'élément recherché n'a pas été trouvé dans le tableau.");
+  console.log("L'élément recherché n'a pas été trouvé dans le tableau.");
   return -1;
 };
 
